@@ -21,13 +21,13 @@ Note that the answer must be a substring, "pwke" is a subsequence and not a subs
 
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
-	fmt.Print(lengthOfLongestSubstring("abba"))
-}
+// func main() {
+// 	fmt.Print(lengthOfLongestSubstring("abba"))
+// }
 
 func lengthOfLongestSubstring(s string) int {
 	var window []rune
