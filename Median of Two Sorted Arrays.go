@@ -20,15 +20,15 @@ The median is (2 + 3)/2 = 2.5
 */
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
-	nums1 := []int{1, 4}
-	nums2 := []int{2}
-	fmt.Print(findMedianSortedArrays(nums1, nums2))
-}
+// func main() {
+// 	nums1 := []int{1, 4}
+// 	nums2 := []int{2}
+// 	fmt.Print(findMedianSortedArrays(nums1, nums2))
+// }
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	i, j := 0, 0
