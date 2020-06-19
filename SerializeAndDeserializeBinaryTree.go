@@ -1,4 +1,4 @@
-package src
+package leetcode
 
 import (
 	"strconv"
@@ -11,6 +11,13 @@ import (
 // 	root := obj.deserialize(str)
 // 	fmt.Println(obj.serialize(root))
 // }
+
+// TreeNode node
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 // Codec
 type Codec struct {
