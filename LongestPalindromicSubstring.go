@@ -14,7 +14,7 @@ Output: "bb"
 
 */
 
-package main
+package leetcode
 
 // import (
 // 	"fmt"

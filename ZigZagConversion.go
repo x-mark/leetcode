@@ -26,7 +26,7 @@ P     I
 
 */
 
-package main
+package leetcode
 
 import (
 	"bytes"

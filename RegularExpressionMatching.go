@@ -47,7 +47,7 @@ Output: false
 
 */
 
-package main
+package leetcode
 
 // import (
 // 	"fmt"
